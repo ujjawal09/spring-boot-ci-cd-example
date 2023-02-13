@@ -15,7 +15,7 @@ public class AwsDemoApplication {
 
 	@GetMapping
 	public String regHandler(){
-		System.out.println("testing");
+		System.out.println("test");
 		return "Hello World!!";
 	}
 }
